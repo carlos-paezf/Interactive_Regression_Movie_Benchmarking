@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="es">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Galería de Gráficos (iframes)</title>
+    <link rel="stylesheet" href="./styles.css">
+    <meta name="description" content="Galería responsiva para 10 gráficos HTML embebidos vía iframe.">
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="title">Galería de Gráficos (iframes)</div>
+    </header>
+
+    <div class="controls">
+      <button class="tab active" data-url="./charts/Comparación_de_IMDb_Score_por_País.html">Comparación de IMDb Score
+        por País</button>
+      <button class="tab" data-url="./charts/Distribución_de_IMDb_Score_en_USA.html">Distribución de IMDb Score por
+        país</button>
+      <button class="tab" data-url="./charts/Comparación_filtrada_de_IMDb_Score_por_País.html">Comparación filtrada de
+        IMDb Score por País</button>
+      <button class="tab" data-url="./charts/Frecuencia_de_categorías.html">Frecuencia de categorías</button>
+      <button class="tab" data-url="./charts/Distribuciones_numéricas.html">Distribuciones numéricas</button>
+      <button class="tab" data-url="./charts/Matriz_de_dispersión_interactiva.html">Matriz de dispersión
+        interactiva</button>
+      <button class="tab" data-url="./charts/Comparación_sin_outliers_de_IMDb_Score_por_País.html">Comparación sin
+        outliers de IMDb Score por País</button>
+      <button class="tab" data-url="./charts/Mapa_de_Calor_Interactivo_de_Correlaciones.html">Mapa de calor interactivo
+        de correlaciones</button>
+      <button class="tab" data-url="./charts/Mapa_de_Calor_de_Pares_Altamente_Correlacionados.html">Mapa de calor de
+        pares altamente correlacionados</button>
+      <button class="tab" data-url="./charts/Linear_regression_without_PCA_plot_comparison_interactive.html">Comparación
+        interactiva de Regresión Lineal sin PCA</button>
+      <button class="tab"
+        data-url="./charts/Linear_regression_without_PCA_plot_feature_importance_interactive.html">Importancia de
+        características de Regresión Lineal sin PCA</button>
+      <button class="tab" data-url="./charts/Linear_regression_without_PCA_plot_residuals_interactive.html">Gráfica de
+        residuos de Regresión Lineal sin PCA</button>
+      <button class="tab" data-url="./charts/Linear_regression_with_PCA_plot_comparison_interactive.html">Comparación
+        interactiva de Regresión Lineal con PCA</button>
+      <button class="tab"
+        data-url="./charts/Linear_regression_with_PCA_plot_feature_importance_interactive.html">Importancia de
+        características de Regresión Lineal con PCA</button>
+      <button class="tab" data-url="./charts/Linear_regression_with_PCA_plot_residuals_interactive.html">Gráfica de
+        residuos de Regresión Lineal con PCA</button>
+      <button class="tab" data-url="./charts/Proyección_PCA_en_3D_Interactiva.html">Proyección PCA en 3D
+        Interactiva</button>
+      <button class="tab" data-url="./charts/Validacion_cruzada_modelos.html">Validación cruzada modelos</button>
+    </div>
+
+    <main class="viewer">
+      <div class="ratio">
+        <iframe id="chart-frame" src="./charts/Comparación_de_IMDb_Score_por_País.html" allowfullscreen></iframe>
+      </div>
+    </main>
+
+    <div class="links">
+      <strong>URLs directas de cada gráfico:</strong><br>
+      <a href="./charts/Comparación_de_IMDb_Score_por_País.html">Comparación_de_IMDb_Score_por_País.html</a> ·
+      <a href="./charts/Distribución_de_IMDb_Score_en_USA.html">Distribución_de_IMDb_Score_en_USA.html</a> ·
+      <a
+        href="./charts/Comparación_filtrada_de_IMDb_Score_por_País.html">Comparación_filtrada_de_IMDb_Score_por_País.html</a>
+      ·
+      <a href="./charts/Frecuencia_de_categorías.html">Frecuencia_de_categorías.html</a> ·
+      <a href="./charts/Distribuciones_numéricas.html">Distribuciones_numéricas.html</a> ·
+      <a href="./charts/Matriz_de_dispersión_interactiva.html">Matriz_de_dispersión_interactiva.html</a> ·
+      <a
+        href="./charts/Comparación_sin_outliers_de_IMDb_Score_por_País.html">Comparación_sin_outliers_de_IMDb_Score_por_País.html</a>
+      ·
+      <a
+        href="./charts/Mapa_de_Calor_Interactivo_de_Correlaciones.html">Mapa_de_Calor_Interactivo_de_Correlaciones.html</a>
+      ·
+      <a
+        href="./charts/Mapa_de_Calor_de_Pares_Altamente_Correlacionados.html">Mapa_de_Calor_de_Pares_Altamente_Correlacionados.html</a>
+      ·
+      <a
+        href="./charts/Linear_regression_without_PCA_plot_comparison_interactive.html">Linear_regression_without_PCA_plot_comparison_interactive.html</a>
+      ·
+      <a
+        href="./charts/Linear_regression_without_PCA_plot_feature_importance_interactive.html">Linear_regression_without_PCA_plot_feature_importance_interactive.html</a>
+      ·
+      <a
+        href="./charts/Linear_regression_without_PCA_plot_residuals_interactive.html">Linear_regression_without_PCA_plot_residuals_interactive.html</a>
+      ·
+      <a
+        href="./charts/Linear_regression_with_PCA_plot_comparison_interactive.html">Linear_regression_with_PCA_plot_comparison_interactive.html</a>
+      ·
+      <a
+        href="./charts/Linear_regression_with_PCA_plot_feature_importance_interactive.html">Linear_regression_with_PCA_plot_feature_importance_interactive.html</a>
+      ·
+      <a
+        href="./charts/Linear_regression_with_PCA_plot_residuals_interactive.html">Linear_regression_with_PCA_plot_residuals_interactive.html</a>
+      ·
+      <a href="./charts/Proyección_PCA_en_3D_Interactiva.html">Proyección_PCA_en_3D_Interactiva.html</a> ·
+      <a href="./charts/Validacion_cruzada_modelos.html">Validacion_cruzada_modelos.html</a> .
+    </div>
+
+    <footer class="footer">
+      Sube esta carpeta (con index.html y charts/) a cualquier hosting estático con HTTPS, y usa los enlaces directos en
+      tus iframes de Genially.
+    </footer>
+
+    <script src="./scripts.js"></script>
+  </body>
+
+</html>
